@@ -114,5 +114,33 @@ line-height: 30px;
 }
 .flower-link{
     margin-right: -57px;
+    color: #272727;
 }
 /* featured section end */
+/* fresh flowers start */
+.fresh-flower{
+    display: flex;
+    
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1059px;
+    
+    height: auto;
+   
+    padding: 50px 60px;
+    margin-left: 92px;
+    margin-bottom: 50px;
+}
+.frist-fresh-flower img{
+    margin-left: 56px;
+}
+.send-fresh-flower img{
+    margin-left: 77px;
+}
+.thrd-fresh-flower img{
+    margin-left: 10px;
+}
+/* fresh flower end */
