@@ -119,7 +119,7 @@ line-height: 30px;
 /* fresh flowers start */
 .fresh-flower{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -194,10 +194,17 @@ line-height: 30px;
 
 /* images section finished */
 .latest-deal{
+    
+ background-image: url('./FlowerAsset/Rectangle\ 9.png');
+background-size: cover;
+
+ width: 80%;
+    margin-right: 10%;
     margin-top: 100px;
-  text-align: center;
-  margin-bottom: 50px;
- background-image: url('./Rectangle\ 9.png');
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    margin-left: 10%;
 }
 .latest-deal h1{
     color: #272727;
