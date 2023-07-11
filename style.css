@@ -161,7 +161,7 @@ line-height: 30px;
 margin-bottom: 10px;
 font-weight: 800;
 }
-.deal-title span{
+ span{
     color: #E55473;
 }
 .deal-title p{
@@ -173,7 +173,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
-.deal-title button{
+.deals-button{
     border-radius: 8px;
     background: #E55473;
     border: none;
@@ -201,4 +201,61 @@ line-height: 30px;
 }
 .img-first {
     margin-left: 209px;
+}
+/* images section finished */
+.latest-deal{
+    margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+ background-image: url('./Rectangle\ 9.png');
+}
+.latest-deal h1{
+    color: #272727;
+text-align: center;
+padding-top: 40px;
+font-size: 40px;
+
+font-weight: 800;
+}
+.latest-deal p{
+    font-size: 18px;
+margin-bottom: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+input[type="email"] {
+    padding: 10px 250px 10px 10px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 40px;
+}
+.latest-btn{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+
+}
+/* latest deals finished */
+footer{
+    text-align: center;
+align-items: center;
+    color: #FFF;
+    background: #111010;
+    padding: 15px;
+}
+footer h1{
+    font-size: 48px;
+padding-top: 50px;
+font-weight: 800;
+}
+footer p{
+    padding: 10px;
+    font-size: 18px;
+
+font-weight: 400;
+line-height: 30px
 }
