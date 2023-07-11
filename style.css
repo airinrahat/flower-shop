@@ -19,30 +19,23 @@ header{
 }
 .header-title h1{
     color: #272727;
-
-font-size: 50px;
-
-font-weight: 800;
-margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 .header-title p{
     color: #27272799;
     font-size: 18px;
-
-font-weight: 400;
-line-height: 25px;
-margin-bottom: 32px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 32px;
 }
-/* .header-img img{
-    width: 75%;
-} */
 .header-title button{
     border-radius: 8px;
-background: #E55473;
-color: white;
-padding: 15px 20px;
-border: none;
-
+    background: #E55473;
+    color: white;
+    padding: 15px 20px;
+    border: none;
 }
 /* header section end */
 /* featured section start */
@@ -54,18 +47,17 @@ border: none;
 .primary-title h1{
     color: #272727;
     font-size: 40px;
-
-font-weight: 800;
-margin-bottom: 10px;
-text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .primary-title p{
     color: #272727;
     font-size: 18px;
     margin-bottom: 50px;
-text-align: center;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
 }
 .flower-one{
     background-color: rgba(167, 33, 98, 0.15);
@@ -130,7 +122,6 @@ line-height: 30px;
     margin-top: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-   
     padding: 50px 60px;
     margin-bottom: 50px;
     margin-left: 120px;
@@ -162,29 +153,20 @@ line-height: 30px;
 .deal-title h1{
     font-size: 35px;
     color: #272727;
-margin-bottom: 10px;
-font-weight: 800;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
  span{
     color: #E55473;
 }
 .deal-title p{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-
-font-size: 18px;
-
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .deals-button{
-    /* border-radius: 8px;
-    background: #E55473;
-    border: none;
-    padding: 12px 24px;
-    color: white;
-    
-    margin-top: 10px; */
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -204,15 +186,16 @@ line-height: 30px;
      padding: 0px 120px;
   
 }
-/* .images{
-    display: flex;
-    padding: 0px 120px;
-} */
+
 .images-section p{
     color: rgba(39, 39, 39, 0.60);
+
+}
+.images-section h1{
+    color: #272727;
 }
 .images img{
-   width: 250px;
+    width: 250px;
     height: auto;
     padding: 0 5px;
 }
@@ -220,31 +203,27 @@ line-height: 30px;
 /* images section finished */
 .latest-deal{
     
- background-image: url('./FlowerAsset/Rectangle\ 9.png');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
-
+    background-image: url('./FlowerAsset/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-   padding: 80px 0px;
+    padding: 80px 0px;
     border-radius: 8px;
     margin: 100px 120px 50px 120px;
 }
 .latest-deal h1{
     color: #272727;
-text-align: center;
-
-font-size: 40px;
-
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 .latest-deal p{
     font-size: 18px;
-margin-bottom: 20px;
-font-weight: 400;
-line-height: 30px;
-color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
 
 }
 .email{
@@ -254,13 +233,7 @@ color: rgba(39, 39, 39, 0.60);
     background: #FFF;
    
 }
-/* input[type="email"] {
-    padding: 10px 250px 10px 10px;
-    border: none;
-    border-radius: 8px;
-    background: #FFF;
-    margin-bottom: 40px;
-} */
+
 .latest-btn{
     border-radius: 8px;
     background: #E55473;
@@ -273,27 +246,27 @@ color: rgba(39, 39, 39, 0.60);
 /* latest deals finished */
 footer{
     text-align: center;
-align-items: center;
+    align-items: center;
     color: #FFF;
     background: #111010;
     padding: 15px 15px 50px 10px;
 }
 footer h1{
     font-size: 48px;
-padding-top: 50px;
-font-weight: 800;
+    padding-top: 50px;
+    font-weight: 800;
 }
 footer p{
     padding: 10px;
     font-size: 18px;
-
-font-weight: 400;
-line-height: 30px
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    line-height: 30px
 }
 .copy{
     color: rgba(255, 255, 255, 0.40);
 }
-/* contact section star */
+/* contact section start */
 .contact-section{
     display: flex;
     justify-content: space-around;
@@ -323,4 +296,9 @@ line-height: 30px
     border-radius: 8px;
     margin-bottom: 10px;
     padding: 9px 117px 0px 10px;
+}
+.contact h1{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
 }
