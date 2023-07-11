@@ -178,12 +178,18 @@ font-weight: 400;
 line-height: 30px;
 }
 .deals-button{
-    border-radius: 8px;
+    /* border-radius: 8px;
     background: #E55473;
     border: none;
     padding: 12px 24px;
     color: white;
     
+    margin-top: 10px; */
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 15px 30px;
+    border: none;
     margin-top: 10px;
 }
 .deal-image img{
@@ -242,7 +248,7 @@ color: rgba(39, 39, 39, 0.60);
 
 }
 .email{
-    padding: 10px 250px 10px 10px;
+    padding: 20px 279px 20px 31px;
     border: none;
     border-radius: 8px;
     background: #FFF;
@@ -259,8 +265,9 @@ color: rgba(39, 39, 39, 0.60);
     border-radius: 8px;
     background: #E55473;
     border: none;
-    padding: 10px 21px;
+    padding: 20px 36px;
     color: white;
+    margin-left: 10px;
 
 }
 /* latest deals finished */
